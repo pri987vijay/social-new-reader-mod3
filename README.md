@@ -18,7 +18,7 @@ The project consists following scala files mentioned below"
 5) LinkTag.scala - This is a case class extends trait class and declare the HTML tag - Link 
 6) TwitterLinkTag.scala - This is a case class extends trait class and declare the HTML tag - Twitter username
 
-# Note: Here, the design of this project support all the upcoming requirements. Simply creating a new case class and respective inputs coming from mod1 and mod2 (main.scala) would suffice all the future requrements (adding/modify the new/current tags).
+### Note: Here, the design of this project support all the upcoming requirements. In case of new tags introduced, just add a case class in defineTags package. Or if we need to change the existing tags, modify respective case class functions.
 
 ### Prerequisites
 
